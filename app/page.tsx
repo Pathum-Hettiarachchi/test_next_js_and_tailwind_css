@@ -9,7 +9,7 @@ export default function page() {
         autem iure option.</p>
 
         <div>
-          <button className='bg-blue-500 px-8 py-2 mt-5 rounded-full text-red-50'>Submit</button>
+          <button className='bg-blue-500 px-8 py-2 mt-5 rounded-full text-red-50 hover:bg-blue-700 duration-300'>Submit</button>
           </div>
         
       </div>
