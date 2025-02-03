@@ -3,7 +3,7 @@ import React from 'react'
 export default function page() {
   return (
     <div className='flex justify-center items-center w-ful bg-blue-200 h-[100vh] relative flex-col'>
-      <div className="navBar">
+      <div className="navBar absolute top-0 left-0 flex w-full bg-slate-50 py-3">
         <li><a href="">Service</a></li>
         <li><a href="">Project</a></li>
         <li><a href="">About</a></li>
