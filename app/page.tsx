@@ -4,7 +4,7 @@ export default function page() {
   return (
     <div className='flex justify-center items-center w-ful bg-blue-200 h-[100vh] relative flex-col'>
       <div className="navBar absolute top-0 left-0 flex w-full py-3 items-center justify-center">
-        <div className="nav-items flex bg-white opacity-50 py-3 px-10 rounded-full list-none">
+        <div className="nav-items flex bg-white bg-opacity-50 py-3 px-10 rounded-full list-none font-semibold">
         <li className='mr-8'><a href="">Service</a></li>
         <li className='mr-8'><a href="">Project</a></li>
         <li className='mr-8'><a href="">About</a></li>
