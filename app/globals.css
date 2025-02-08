@@ -7,6 +7,7 @@
   --foreground: #171717;
   --bodytext: rgb(188, 187, 203);
   --font-color: #eaeaea;
+  --card-bg: rgb(31, 31, 38);
 }
 
 @media (prefers-color-scheme: dark) {
