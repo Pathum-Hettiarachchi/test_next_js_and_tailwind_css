@@ -13,7 +13,8 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         fontcolor: "var(--font-color)",
-        cardbg: "var(--card-bg)"
+        cardbg: "var(--card-bg)",
+        cardbg2: "var(--card-bg2)"
       },
     },
   },
