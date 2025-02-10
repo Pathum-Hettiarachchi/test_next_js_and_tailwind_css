@@ -8,6 +8,7 @@
   --bodytext: rgb(188, 187, 203);
   --font-color: #eaeaea;
   --card-bg: rgb(31, 31, 38);
+  --card-bg2: #08080a;
 }
 
 @media (prefers-color-scheme: dark) {
