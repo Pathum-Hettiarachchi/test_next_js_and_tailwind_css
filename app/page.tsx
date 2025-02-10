@@ -23,14 +23,24 @@ export default function page() {
           </div>
         
       </div>
-      <section className='w-full h-[100vh] bg-background felx flex-col md:flex-row items-center justify-center gap-4 p-4'>
-        <div className="card1 card1 w-full md:w-[40%] h-64 bg-cardbg rounded-2xl shadow-md flex items-center justify-center text-white text-lg">
-          Card1
-        </div>
-        <div className="card2 card1 card1 w-full md:w-[40%] h-64 bg-cardbg rounded-2xl shadow-md flex items-center justify-center text-white text-lg">
-          Card2
-        </div>
-      </section>
+  
+      
+    
+  <section className="w-full h-auto bg-background flex flex-wrap items-center justify-center gap-4 p-4">
+
+  <div className="card1 w-full md:w-[48%] h-[600px] bg-cardbg rounded-2xl shadow-md flex items-center justify-center text-white text-lg">
+    <h1 className='text-[36px] md:text-[64px]'>Ui/Ux Design</h1>
+  </div>
+  <div className="card2 w-full md:w-[48%] h-[600px] bg-cardbg rounded-2xl shadow-md flex items-center justify-center text-white text-lg">
+    <h1 className='text-[36px] md:text-[56px]'>Frontend Development</h1>
+  </div>
+  <div className="card3 w-full md:w-[48%] h-[600px] bg-cardbg2 rounded-2xl shadow-md flex items-center justify-center text-white text-lg">
+    Card3
+  </div>
+  <div className="card4 w-full md:w-[48%] h-[600px] bg-cardbg2 rounded-2xl shadow-md flex items-center justify-center text-white text-lg">
+    Card4
+  </div>
+</section>
       </div>
   )
 }
