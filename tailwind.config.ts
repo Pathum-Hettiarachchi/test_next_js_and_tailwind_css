@@ -14,7 +14,8 @@ export default {
         foreground: "var(--foreground)",
         fontcolor: "var(--font-color)",
         cardbg: "var(--card-bg)",
-        cardbg2: "var(--card-bg2)"
+        cardbg2: "var(--card-bg2)",
+        fontsecondary: "var(--font-secondary-color)"
       },
     },
   },
