@@ -3,12 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --background: #111115;
+  --background: #17171a;
   --foreground: #171717;
   --bodytext: rgb(188, 187, 203);
   --font-color: #eaeaea;
   --card-bg: rgb(31, 31, 38);
   --card-bg2: #08080a;
+  --font-secondary-color: #8e909c;
 }
 
 @media (prefers-color-scheme: dark) {
