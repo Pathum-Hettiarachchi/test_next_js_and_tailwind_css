@@ -28,19 +28,21 @@ export default function page() {
     
   <section className="w-full h-auto bg-background flex flex-wrap items-center justify-center gap-4 p-4">
 
-  <div className="card1 w-full md:w-[48%] h-[600px] bg-cardbg rounded-2xl shadow-md flex flex-col items-start justify-start text-white text-lg p-10">
+  <div className="card1 w-full md:w-[48%] h-[600px] bg-cardbg rounded-2xl shadow-md flex flex-col items-start justify-start text-lg p-10">
     <h1 className='text-[36px] md:text-[56px] leading-[0.9] text-fontcolor'>Ui/Ux Design</h1>
     <p className='mt-5 text-bodytext'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla maiores expedita neque eligendi debitis a qui eaque vitae sed? Deleniti.</p>
   </div>
-  <div className="card2 w-full md:w-[48%] h-[600px] bg-cardbg rounded-2xl shadow-md flex flex-col items-start justify-start text-white text-lg p-10">
+  <div className="card2 w-full md:w-[48%] h-[600px] bg-cardbg rounded-2xl shadow-md flex flex-col items-start justify-start text-lg p-10">
     <h1 className='text-[36px] md:text-[56px] leading-[0.9] text-fontcolor'>Frontend<br></br>Development</h1>
-    <p className='mt-5 text-bodytext'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla maiores expedita neque eligendi debitis a qui eaque vitae sed? Deleniti.</p>
+    <p className='mt-5 text-fontsecondary'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla maiores expedita neque eligendi debitis a qui eaque vitae sed? Deleniti.</p>
   </div>
-  <div className="card3 w-full md:w-[48%] h-[600px] bg-cardbg2 rounded-2xl shadow-md flex items-center justify-center text-white text-lg">
-    Card3
+  <div className="card3 w-full md:w-[48%] h-[600px] bg-cardbg2 rounded-2xl shadow-md flex flex-col items-start justify-start text-lg p-10">
+    <h1 className='text-[36px] md:text-[56px] leading-[0.9] text-fontcolor'>Project 01</h1>
+    <p className='mt-5 text-fontsecondary'>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
   </div>
-  <div className="card4 w-full md:w-[48%] h-[600px] bg-cardbg2 rounded-2xl shadow-md flex items-center justify-center text-white text-lg">
-    Card4
+  <div className="card4 w-full md:w-[48%] h-[600px] bg-cardbg2 rounded-2xl shadow-md flex flex-col items-start justify-start text-lg p-10">
+  <h1 className='text-[36px] md:text-[56px] leading-[0.9] text-fontcolor'>Project 02</h1>
+  <p className='mt-5 text-fontsecondary'>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
   </div>
 </section>
       </div>
