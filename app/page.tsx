@@ -46,6 +46,14 @@ export default function page() {
   <p className='mt-5 text-fontsecondary'>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
   </div>
 </section>
+
+<div className="section-title bg-background">
+    <h1 className='text-[86px] text-fontcolor p-[20px] text-center'>About Me</h1>
+  </div>
+  <section className='w-full h-auto bg-background flex flex-wrap items-center justify-center'>
+    <div className='w-[96%] bg-cardbg h-[450px] rounded-2xl'></div>
+
+  </section>
       </div>
   )
 }
