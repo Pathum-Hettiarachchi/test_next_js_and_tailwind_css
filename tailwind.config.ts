@@ -15,7 +15,8 @@ export default {
         fontcolor: "var(--font-color)",
         cardbg: "var(--card-bg)",
         cardbg2: "var(--card-bg2)",
-        fontsecondary: "var(--font-secondary-color)"
+        fontsecondary: "var(--font-secondary-color)",
+        fontcolorsecond: "var(--font-color-second)"
       },
     },
   },
