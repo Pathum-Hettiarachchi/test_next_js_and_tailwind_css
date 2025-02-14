@@ -26,7 +26,7 @@ export default function page() {
   
       
   <div className="section-title bg-background">
-    <h1 className='text-[86px] text-fontcolor p-[20px]'>Project & Sevices</h1>
+    <h1 className='text-[48px] text-fontcolorsecond p-[20px]'>Project & Sevices</h1>
   </div>
   <section className="w-full h-auto bg-background flex flex-wrap items-center justify-center gap-4 p-4">
   <div className="card1 w-full md:w-[48%] h-[600px] bg-cardbg rounded-2xl shadow-md flex flex-col items-start justify-start p-10">
