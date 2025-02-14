@@ -10,6 +10,7 @@
   --card-bg: rgb(31, 31, 38);
   --card-bg2: #08080a;
   --font-secondary-color: #8e909c;
+  --font-color-second: #86868b;
 }
 
 @media (prefers-color-scheme: dark) {
