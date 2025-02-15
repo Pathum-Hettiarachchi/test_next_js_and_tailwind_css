@@ -51,8 +51,9 @@ export default function page() {
 <div className="section-title bg-background">
     <h1 className='text-[86px] text-fontcolor p-[20px] text-center'>About Me</h1>
   </div>
+  <section className='flex justify-center items-center w-full h-auto'>
     <SignificantOthers />
-    
+    </section>
       </div>
   )
 }
