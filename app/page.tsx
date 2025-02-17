@@ -1,5 +1,6 @@
 import React from 'react'
 import SignificantOthers from './Components/SignificantOthers'
+import Footer from './Components/Footer'
 
 
 export default function page() {
@@ -53,6 +54,10 @@ export default function page() {
   </div>
   <section className='flex justify-center items-center w-full h-auto'>
     <SignificantOthers />
+    </section>
+    
+    <section className='flex justify-center items-center w-full h-auto'>
+    <Footer />
     </section>
       </div>
   )
