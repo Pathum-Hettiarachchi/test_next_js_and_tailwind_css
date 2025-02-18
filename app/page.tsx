@@ -1,6 +1,8 @@
+'use client';
 import React from 'react'
 import SignificantOthers from './Components/SignificantOthers'
 import Footer from './Components/Footer'
+import { motion } from "framer-motion";
 
 
 export default function page() {
@@ -15,10 +17,23 @@ export default function page() {
         <li className='mr-8'><a href="">Lets Talk</a></li>
         </div>
       </div>
-      <h1 className='text-[64px] text-fontcolor'>Home Page</h1>
-      <p className='w-[600px] mt-5 text-center text-bodytext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ab iste sequi aliquid illo! 
-        Commodi molestias temporibus ab sunt sapiente eum perferendis earum hic quos soluta magnam, 
-        autem iure option.</p>
+
+      <motion.h1
+        className="text-4xl font-semibold bg-clip-text text-transparent"
+        style={{
+          backgroundImage: "linear-gradient(90deg, #008FF6, #E150D3, #F44733)",
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent",
+          backgroundSize: "200% 200%"
+        }}
+        animate={{ backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"] }}
+        transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
+      >
+        Ui/Ux Designer
+      </motion.h1>
+      <h1 className="text-4xl font-semibold">& Frondend Developer</h1>
+
+
 
         <div>
           <button className='bg-blue-500 px-8 py-2 mt-5 rounded-full text-red-50 hover:bg-blue-700 duration-300'>Submit</button>
