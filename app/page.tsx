@@ -19,7 +19,7 @@ export default function page() {
       </div>
 
       <motion.h1
-        className="text-4xl font-semibold bg-clip-text text-transparent"
+        className="text-[48px] font-semibold bg-clip-text text-transparent leading-none"
         style={{
           backgroundImage: "linear-gradient(90deg, #008FF6, #E150D3, #F44733)",
           WebkitBackgroundClip: "text",
@@ -31,13 +31,8 @@ export default function page() {
       >
         Ui/Ux Designer
       </motion.h1>
-      <h1 className="text-4xl font-semibold">& Frondend Developer</h1>
+      <h1 className="text-[48px] font-semibold text-fontcolor leading-none">& Frondend Developer</h1>
 
-
-
-        <div>
-          <button className='bg-blue-500 px-8 py-2 mt-5 rounded-full text-red-50 hover:bg-blue-700 duration-300'>Submit</button>
-          </div>
         
       </div>
   
