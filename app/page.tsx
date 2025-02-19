@@ -66,8 +66,8 @@ export default function page() {
     <SignificantOthers />
     </section>
 
-    <section className='contact'>
-      <h1 className='text-[48px]'>See if Pathum good fit for you</h1>
+    <section className='contact w-full'>
+      <h1 className='text-[48px]'>See if Pathum good fit<br></br> for you</h1>
       <p>Get into a discovery call and find out how we can improve your business for good.</p>
     </section>
     
