@@ -69,6 +69,10 @@ export default function page() {
     <section className='contact w-full'>
       <h1 className='text-[48px]'>See if Pathum good fit<br></br> for you</h1>
       <p>Get into a discovery call and find out how we can improve your business for good.</p>
+      <div className='btn flex'>
+        <button className='px-10 py-4 rounded-2xl bg-slate-50'>Book a call</button>
+        <button>Send an email</button>
+      </div>
     </section>
     
     <section className='flex justify-center items-center w-full h-auto'>
