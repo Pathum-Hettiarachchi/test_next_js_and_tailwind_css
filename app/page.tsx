@@ -66,12 +66,12 @@ export default function page() {
     <SignificantOthers />
     </section>
 
-    <section className='contact w-full'>
-      <h1 className='text-[48px]'>See if Pathum good fit<br></br> for you</h1>
+    <section className='contact w-full flex flex-col justify-center items-center p-10 h-[100vh]'>
+      <h1 className='text-[48px] text-center leading-none text-fontcolor mb-10'>See if Pathum good fit<br></br> for you</h1>
       <p>Get into a discovery call and find out how we can improve your business for good.</p>
-      <div className='btn flex'>
-        <button className='px-10 py-4 rounded-2xl bg-slate-50'>Book a call</button>
-        <button>Send an email</button>
+      <div className='btn flex gap-4'>
+        <button className='px-10 py-4 rounded-2xl border-2 border-solid text-white'>Book a call</button>
+        <button className='px-10 py-4 rounded-2xl bg-white'>Send an email</button>
       </div>
     </section>
     
