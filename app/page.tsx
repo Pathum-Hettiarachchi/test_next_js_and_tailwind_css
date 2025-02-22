@@ -3,6 +3,10 @@ import React from 'react'
 import SignificantOthers from './Components/SignificantOthers'
 import Footer from './Components/Footer'
 import { motion } from "framer-motion";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 
 
 export default function page() {
@@ -66,13 +70,19 @@ export default function page() {
     <SignificantOthers />
     </section>
 
-    <section className='contact w-full flex flex-col justify-center items-center p-10 h-[100vh]'>
+    <section className='contact w-full flex flex-col justify-center items-center p-10 h-[100vh] relative'>
       <h1 className='text-[48px] text-center leading-none text-fontcolor mb-10'>See if Pathum good fit<br></br> for you</h1>
       <p className='text-fontsecondary mb-5'>Get into a discovery call and find out how we can improve your business for good.</p>
       <div className='btn flex gap-4'>
         <button className='px-10 py-4 rounded-2xl border-2 border-solid text-white'>Book a call</button>
         <button className='px-10 py-4 rounded-2xl bg-white'>Send an email</button>
       </div>
+      <div className="icons text-fontcolor flex absolute bottom-0 left-[16px] text-2xl gap-3">
+        <FaWhatsapp />
+        <FaSquareXTwitter />
+        <FaLinkedin />
+        <FaGithub />
+        </div>
     </section>
     
     <section className='flex justify-center items-center w-full h-auto'>
