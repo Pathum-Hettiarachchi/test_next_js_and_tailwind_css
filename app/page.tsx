@@ -7,6 +7,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
+import LogoMarquee from './Components/LogoMarquee';
 
 
 export default function page() {
@@ -39,6 +40,7 @@ export default function page() {
 
         
       </div>
+      < LogoMarquee />
   
       
   <div className="section-title bg-background">
