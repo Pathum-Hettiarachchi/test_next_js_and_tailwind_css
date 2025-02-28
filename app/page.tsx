@@ -68,7 +68,7 @@ export default function page() {
 <div className="section-title bg-background">
     <h1 className='text-[86px] text-fontcolor p-[20px] text-center'>About Me</h1>
   </div>
-  <section className='w-[96%] bg-cardbg2 flex text-fontcolor h-[120px] rounded-2xl gap-4'>
+  <section className='w-[96%] bg-cardbg2 flex justify-center items-center text-[36px] text-fontcolor h-[120px] rounded-2xl gap-4'>
     <div className="items">
       <h1>20+</h1>
       <p>Projects</p>
