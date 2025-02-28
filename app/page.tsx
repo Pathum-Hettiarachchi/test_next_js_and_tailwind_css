@@ -68,16 +68,16 @@ export default function page() {
 <div className="section-title bg-background">
     <h1 className='text-[86px] text-fontcolor p-[20px] text-center'>About Me</h1>
   </div>
-  <section className='w-[96%] bg-cardbg2 flex justify-center items-center text-[36px] text-fontcolor h-[120px] rounded-2xl gap-4'>
-    <div className="items">
+  <section className='w-[96%] bg-cardbg2 flex justify-center items-center text-[36px] text-fontcolor h-[120px] rounded-2xl gap-[100px]'>
+    <div className="items leading-none flex flex-col items-center">
       <h1>20+</h1>
       <p>Projects</p>
     </div>
-    <div className="items">
+    <div className="items leading-none flex flex-col items-center">
       <h1>15+</h1>
       <p>Clients</p>
     </div>
-    <div className="items">
+    <div className="items leading-none flex flex-col items-center">
       <h1>4+</h1>
       <p>Years</p>
     </div>
