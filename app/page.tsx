@@ -14,8 +14,8 @@ export default function page() {
   return (
     <div className='p-6 bg-background'>
     <div className='flex justify-center items-center w-ful bg-background h-[100vh] relative flex-col'>
-      <div className="navBar absolute top-0 left-0 flex w-full py-3 items-center justify-center">
-        <div className="nav-items flex bg-white bg-opacity-80 py-3 px-10 rounded-full list-none font-semibold text-gray-700">
+      <div className="navBar absolute top-0 left-0 flex w-full py-2  items-center justify-center">
+        <div className="nav-items flex bg-white bg-opacity-80 py-5 px-10 rounded-2xl list-none font-semibold text-gray-700">
         <li className='mr-8'><a href="/service">Service</a></li>
         <li className='mr-8'><a href="/project">Project</a></li>
         <li className='mr-8'><a href="/about">About</a></li>
@@ -68,7 +68,7 @@ export default function page() {
 <div className="section-title bg-background">
     <h1 className='text-[86px] text-fontcolor p-[20px] text-center'>About Me</h1>
   </div>
-  <section className='w-[96%] bg-cardbg2 flex mb-[46px] justify-center items-center text-[36px] text-fontcolor h-[120px] rounded-2xl gap-[100px]'>
+  <section className='w-[96%] bg-cardbg flex mb-[46px] justify-center items-center text-[36px] text-fontcolor h-[120px] rounded-2xl gap-[100px]'>
     <div className="items leading-none flex flex-col items-center">
       <h1>20+</h1>
       <p>Projects</p>
