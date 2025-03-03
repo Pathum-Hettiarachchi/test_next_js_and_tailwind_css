@@ -8,6 +8,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import LogoMarquee from './Components/LogoMarquee';
+import { AiOutlineHome } from "react-icons/ai";
 
 
 export default function page() {
@@ -16,6 +17,7 @@ export default function page() {
     <div className='flex justify-center items-center w-ful bg-background h-[100vh] relative flex-col'>
       <div className="navBar absolute top-0 left-0 flex w-full py-2  items-center justify-center">
         <div className="nav-items flex bg-white bg-opacity-80 py-5 px-10 rounded-2xl list-none font-semibold text-gray-700">
+        <li className='mr-8'><a href="/."><AiOutlineHome className='text-[28px]' /></a></li>
         <li className='mr-8'><a href="/service">Service</a></li>
         <li className='mr-8'><a href="/project">Project</a></li>
         <li className='mr-8'><a href="/about">About</a></li>
