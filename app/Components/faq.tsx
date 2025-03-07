@@ -17,7 +17,7 @@ export default function FAQSection() {
   };
 
   return (
-    <div className="max-w-2xl mx-auto p-6 bg-[#5A3EAA] rounded-2xl shadow-lg text-white">
+    <div className="max-w-[96%] mx-auto p-6 bg-cardbg2 rounded-2xl shadow-lg text-white">
       <h2 className="text-3xl font-bold text-center mb-6">
         Questions? <span className="text-lime-400">Look here.</span>
       </h2>
