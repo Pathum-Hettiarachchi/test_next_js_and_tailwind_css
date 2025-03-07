@@ -25,7 +25,7 @@ export default function FAQSection() {
         {faqs.map((faq, index) => (
           <div key={index} className="rounded-lg overflow-hidden">
             <button
-              className={`flex justify-between items-center w-full text-lg font-medium text-left p-4 transition-all duration-300 ${openIndex === index ? 'bg-lime-400 text-black' : 'bg-purple-600 text-white hover:bg-purple-500'}`}
+              className={`flex justify-between items-center w-full text-lg font-medium text-left p-4 transition-all duration-300 ${openIndex === index ? 'bg-lime-400 text-black' : 'bg-cardbg text-white hover:bg-gray-500'}`}
               onClick={() => toggleFAQ(index)}
             >
               {faq.question}
