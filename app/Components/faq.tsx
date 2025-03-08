@@ -19,13 +19,16 @@ export default function FAQSection() {
   return (
     <div className="max-w-[96%] mx-auto mt-[25px] p-6 bg-cardbg2 rounded-2xl shadow-lg text-white">
       <h2 className="text-3xl font-bold text-center mb-6">
-        Questions? <span className="text-lime-400">Look here.</span>
+        Questions? <span   className="bg-clip-text text-transparent"
+  style={{
+    backgroundImage: "linear-gradient(90deg, #008FF6, #E150D3, #F44733)",
+  }}>Look here.</span>
       </h2>
       <div className="space-y-4">
         {faqs.map((faq, index) => (
           <div key={index} className="rounded-lg overflow-hidden">
             <button
-              className={`flex justify-between items-center w-full text-lg font-medium text-left p-4 transition-all duration-300 ${openIndex === index ? 'bg-lime-400 text-black' : 'bg-cardbg text-white hover:bg-gray-500'}`}
+              className={`flex justify-between items-center w-full text-lg font-medium text-left p-4 transition-all duration-300 ${openIndex === index ? 'bg-blue-500 text-black' : 'bg-cardbg text-white hover:bg-gray-500'}`}
               onClick={() => toggleFAQ(index)}
             >
               {faq.question}
@@ -42,7 +45,7 @@ export default function FAQSection() {
               transition={{ duration: 0.3, ease: "easeInOut" }}
               className="overflow-hidden"
             >
-              <p className="p-4 bg-lime-200 text-black">{faq.answer}</p>
+              <p className="p-4 bg-blue-200 text-black">{faq.answer}</p>
             </motion.div>
           </div>
         ))}
