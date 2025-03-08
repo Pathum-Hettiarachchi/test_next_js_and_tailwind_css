@@ -6,7 +6,9 @@ const faqs = [
   { question: "What industries have you worked in as a product designer?", answer: "I have experience in multiple industries, including tech, fashion, and consumer products." },
   { question: "Can I download your resume/CV for information?", answer: "Certainly! You can download my resume/CV directly from my website. It provides a comprehensive overview of my education, work experience, and design achievements." },
   { question: "Are you available for freelance design work?", answer: "Yes, I am available for freelance opportunities. Feel free to reach out for collaborations!" },
-  { question: "What tools do you use for your design work?", answer: "I primarily use Figma, Adobe Creative Suite, and other industry-standard tools to create stunning designs." }
+  { question: "What tools do you use for your design work?", answer: "I primarily use Figma, Adobe Creative Suite, and other industry-standard tools to create stunning designs." },
+  { question: "What is the process for creating a website with your service?", answer: "I primarily use Figma, Adobe Creative Suite, and other industry-standard tools to create stunning designs." }
+  
 ];
 
 export default function FAQSection() {
