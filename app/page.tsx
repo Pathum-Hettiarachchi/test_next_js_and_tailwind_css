@@ -24,7 +24,7 @@ export default function page() {
         <li className='mr-8'><a href="/service">Service</a></li>
         <li className='mr-8'><a href="/project">Project</a></li>
         <li className='mr-8'><a href="/about">About</a></li>
-        <li className='mr-8'><a href="">Lets Talk</a></li>
+        <li className='mr-8'><a href="/contact">Lets Talk</a></li>
         </div>
       </div>
 
