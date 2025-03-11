@@ -5,7 +5,7 @@ const ContactSection = () => {
   const [phoneNumber, setPhoneNumber] = useState<string>("");
 
   return (
-    <div className="bg-purple-700 text-white p-10 flex flex-col md:flex-row justify-between items-center">
+    <div className="bg-cardbg text-white p-10 flex flex-col md:flex-row justify-between items-center rounded-2xl">
       {/* Left Section */}
       <div className="md:w-1/2 space-y-4">
         <h2 className="text-xl font-bold text-green-300">Contact Us</h2>
