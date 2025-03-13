@@ -8,9 +8,9 @@ const ContactSection = () => {
     <div className="bg-cardbg text-white p-10 flex flex-col md:flex-row justify-between items-center rounded-2xl">
       {/* Left Section */}
       <div className="md:w-1/2 space-y-4">
-        <h2 className="text-xl font-bold text-green-300">Contact Us</h2>
+        <h2 className="text-xl font-bold text-blue-500">Contact Us</h2>
         <h1 className="text-3xl font-bold">
-          Let’s <span className="text-green-300">Connect</span> & <span className="text-green-300">Collaborate</span>
+          Let’s <span className="text-blue-500">Connect</span> & <span className="text-blue-500">Collaborate</span>
         </h1>
         <p className="text-gray-300">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
@@ -39,7 +39,7 @@ const ContactSection = () => {
         </div>
         <input type="text" placeholder="Subject *" className="p-2 rounded-md w-full mt-4" />
         <textarea placeholder="Message *" className="p-2 rounded-md w-full mt-4" rows={4}></textarea>
-        <button className="mt-4 bg-green-400 text-black px-6 py-2 rounded-md font-bold flex items-center">
+        <button className="mt-4 bg-blue-600 text-black px-6 py-2 rounded-md font-bold flex items-center">
           ➕ Send Message
         </button>
       </div>
