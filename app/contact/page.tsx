@@ -4,7 +4,7 @@ import ContactSection from '../Components/contactsection'
 
 export default function page() {
   return (
-    <div className='flex flex-col justify-center items-center bg-background w-full h-[100vh] '>
+    <div className='flex flex-col justify-center items-center bg-background w-full h-[750px] relative'>
 
     <div className="navBar absolute top-0 left-0 flex w-full py-3  items-center justify-center">
         <div className="nav-items flex bg-white bg-opacity-80 py-5 px-10 rounded-2xl list-none font-semibold text-gray-700">
